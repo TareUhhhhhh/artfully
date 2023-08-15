@@ -1,0 +1,61 @@
+/*
+Theme Name: Artfully 2022
+Author: TareUhhhhhh
+Author URI: https://www.tareuhhhhhh.com
+Description: Theme for art display site
+Tags: art, artists, crafts, crafters, crafty, display
+Version: 0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: artfully2022
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+@import 'css/meyer-reset.css';
+@import 'css/setup.css';
+
+
+/*FONT SIZE*/
+h1 {
+	font-size: 4rem;
+	font-weight: 700;
+}
+
+h2 {
+	font-size: 2.5rem;
+	font-weight: 300;
+}
+
+h3 {
+	font-size: 2rem;
+}
+
+p {
+	font-size: 1.2rem;
+}
+
+/*SPACING*/
+.inner-column {
+	margin: 0 auto;
+	max-width: 800px;
+	padding: 1rem;
+}
+
+h2, h3, p, picture {
+	margin-top: 1rem;
+}
+
+/*COLORS*/
+body {
+	background: rgb(127,168,164);
+	color: rgb(81,63,70);
+}
+
+/*ARTIST CARD*/
+.portrait {
+	max-width: 400px;
+}
+
+.artist + .artist {
+	margin-top: 3rem;
+}

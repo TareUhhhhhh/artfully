@@ -1,0 +1,57 @@
+
+* {
+	box-sizing: border-box;
+	scroll-behavior: smooth; /*move to html*/
+}
+
+a {
+	display: block;
+	text-decoration: none;
+	color: inherit;
+}
+
+p a {
+	display: inline-block;
+	text-decoration: underline;
+}
+
+picture {
+	display: block;
+}
+
+img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+ul {
+	list-style-type: circle;
+	margin-left: 15px;
+}
+
+li {
+	padding-top: 5px;
+}
+
+body {
+	background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
