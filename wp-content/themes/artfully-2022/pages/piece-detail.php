@@ -1,7 +1,7 @@
 <!-- THIS IS THE INDIVIDUAL PIECE DETAIL PAGE -->
 
-Get artist data from CPT (relationship field -- object)
-Get name from object -- ['post_title']
+<!-- Get artist data from CPT (relationship field -- object)
+Get name from object -- ['post_title'] -->
 
 
 <?php
